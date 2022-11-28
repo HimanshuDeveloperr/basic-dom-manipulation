@@ -144,4 +144,7 @@ let lastItem=document.querySelector('.diffclass:last-child')
 
 lastItem.style.backgroundColor='powderblue'
 
+let thirdItem= document.querySelector('.list-group-item:nth-child(3)')
+thirdItem.style.display='none'//it will make the 3rd item invisible;
+
 
