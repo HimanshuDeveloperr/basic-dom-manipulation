@@ -90,3 +90,58 @@ li[4].textContent='new'
 li[4].style.padding='13px 23px'
 li[4].style.fontSize='16px'
 li[4].style.fontWeight='bold'
+
+// QUERYSELECTOR
+//use to select the elements by tag,attribute,class,id and through many more methods
+
+let header0=document.querySelector('#main-header')
+//here we r targeting the id of our header and styling it;
+console.log(header)
+
+header0.style.borderBottom="  4px solid grey"
+
+
+
+let input=document.querySelector('input')
+//by default it gives topmost element in the input
+//we r inserting the value of our input tag in the form here
+console.log(input)
+
+input.value='himanshu gupta'
+
+let submit=document.querySelector('input[type="submit"]')
+//here we r targeting the input tag with submit type and changing its value
+console.log(submit)
+
+submit.value='send'
+
+
+
+let listitem=document.querySelector('.list-group-item ')
+//we r selecting the list through class name here with the use of dot in the prefix
+//gives the first item in the list
+console.log(listitem)
+
+listitem.style.color='red'
+
+
+
+let fourthItem = document.querySelector('.list-group-item:nth-child(4)');
+//we r selecting the 4th item of our list using nth-child() method
+fourthItem.style.backgroundColor='coral'
+
+
+
+let secondItem=document.querySelector('.list-group-item:nth-child(2)')
+//selecting the 2nd item in our list
+secondItem.style.backgroundColor='lightgreen'
+
+
+
+let lastItem=document.querySelector('.diffclass:last-child')
+
+//selecting the last item in our list:-note as we had inserted the new li tag with the class as diffclass it become our last li of the list that is why we r targeting our last child method by calling the class name of diffclass.
+
+lastItem.style.backgroundColor='powderblue'
+
+
