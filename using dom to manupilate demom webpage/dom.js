@@ -69,3 +69,24 @@ for(i=0;i<items.length;i++)// to change color and font of each we had to loop th
     items[i].style.color="black"
     items[i].style.fontWeight="bold"
 }
+
+let newitem=document.getElementsByClassName("diffclass")
+console.log(newitem)
+newitem[0].style.backgroundColor='green'
+// newitem[0].style.border='2px solid black'
+newitem[0].style.listStyle='none'
+
+
+
+
+
+//GETELEMENTBYTAG
+
+let li=document.getElementsByTagName('li')
+console.log(li)
+
+li[4].style.color='black'
+li[4].textContent='new'
+li[4].style.padding='13px 23px'
+li[4].style.fontSize='16px'
+li[4].style.fontWeight='bold'
