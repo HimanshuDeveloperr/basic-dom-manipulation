@@ -58,13 +58,13 @@ main.style.border= '3px solid blue'
 
 // GETELEMENTBYCLASS
 
-let items=document.getElementsByClassName("list-group-item")
+let items=document.getElementsByClassName("list-group-item")//give us the elements by class name
 console.log(items)
 console.log(items[1]);
 
 items[2].style.backgroundColor="green";
 
-for(i=0;i<items.length;i++)
+for(i=0;i<items.length;i++)// to change color and font of each we had to loop through each list item 
 {
     items[i].style.color="black"
     items[i].style.fontWeight="bold"
